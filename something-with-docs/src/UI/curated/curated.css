@@ -1,0 +1,48 @@
+.curated-body {
+  padding: 20px 0;
+  display: flex;
+}
+
+.curated-body > .left {
+  width: 70%;
+  padding: 10px;
+}
+
+.curated-body > .right {
+  width: 30%;
+  padding: 10px;
+}
+
+.curated-body > .right > .saved-items {
+  background: #dae1e9;
+  margin: 25px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.curated-body > * > .title {
+  font-size: 200%;
+  font-weight: 700;
+}
+
+.daily-item-body {
+  padding: 20px;
+  margin: 25px 0;
+  border-radius: 5px;
+  border: 1px solid #dae1e9;
+}
+
+.daily-item-body > .title {
+  font-size: 140%;
+  font-weight: 700;
+}
+
+.saved-item-body > .title {
+  font-size: 90%;
+  font-weight: 700;
+}
+
+.saved-item-body {
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}

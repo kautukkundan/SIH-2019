@@ -1,0 +1,130 @@
+.search-body {
+  padding: 20px 0;
+}
+
+.search-body > .search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 82vh;
+}
+
+.search-body > .search > .bar {
+  height: 10vh;
+  width: 80%;
+}
+
+.search-body > .search > .results {
+  height: 0vh;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+  transition: opacity 0.4 ease-in;
+  width: 100%;
+}
+
+.search-body > .search > .expanded {
+  height: 75vh;
+  margin-top: 18px;
+  visibility: visible;
+  opacity: 1;
+}
+
+.dropdown-container {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.docsection-main {
+  padding: 20px;
+}
+
+.docsection-main > .title {
+  font-size: 150%;
+  font-weight: 700;
+}
+
+.docsection-main > .content {
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #dae1e9;
+  padding: 20px;
+}
+
+.docsection-main > .other-content {
+  margin-top: 20px;
+  border-radius: 5px;
+  background: #dae1e9;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.docsection-main > .content > .doc-section {
+  min-height: 20vh;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 20px;
+  background: white;
+  display: flex;
+}
+
+.docsection-main > .content > .doc-section > .icon {
+  background: white;
+  width: 20vh;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15vh;
+}
+
+.docsection-main > .content > .doc-section > .text {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.docsection-main > .content > .doc-section > .text > .doc-title {
+  font-size: 150%;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.docsection-main > .other-content > .otherdoc-section {
+  min-height: 0vh;
+  width: 25vh;
+  margin: auto;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.docsection-main > .other-content > .otherdoc-section > .icon {
+  background: #ffffff;
+  width: 25vh;
+  height: 15vh;
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10vh;
+}
+
+.docsection-main > .other-content > .otherdoc-section > .text {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+
+.docsection-main > .other-content > .otherdoc-section > .text > .doc-title {
+  font-size: 150%;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.docsection-main > .other-content > .otherdoc-section > .doc-item-hashtags > * {
+  word-wrap: break-word;
+}
